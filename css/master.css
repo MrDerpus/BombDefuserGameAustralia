@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, p
+{
+	padding-left: 35px;
+}
+
+.inline
+{
+	display: inline-block;
+}
+
+body
+{
+	background-color: #aaa;
+	font-family: 'Outfit';
+	color: #000;
+}
+
+
+div.topbar
+{
+	padding-top: 25px;
+	padding-bottom: 15px;
+	background-color: #8a5042;
+
+	width: 100%;
+	height: 50px;
+}
+
+a.topbarbutton
+{
+	font-size: 25px;
+	border-radius: 8px;
+	text-decoration: none;
+	padding: 5px;
+	color: #fff;
+	background-color: #000;
+	text-align: center;
+
+}
+a.topbarbutton:hover
+{
+	text-decoration: underline;
+	color: #000;
+	background-color: #fff;
+}
+
+
+a.downloadbtton
+{
+	border-radius: 8px;
+	text-decoration: none;
+	padding: 5px;
+	color: #fff;
+	background-color: #000;
+	text-align: center;
+}
+a.downloadbtton:hover
+{
+	text-decoration: underline;
+	color: #000;
+	background-color: #fff;
+}
