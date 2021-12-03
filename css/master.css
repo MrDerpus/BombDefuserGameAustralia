@@ -40,6 +40,15 @@ div.topbar
 	height: 50px;
 }
 
+a
+{
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+
 a.topbarbutton
 {
 	font-size: 25px;
@@ -61,6 +70,8 @@ a.topbarbutton:hover
 
 a.downloadbtton
 {
+	font-weight: normal;
+	font-size: 14px;
 	border-radius: 8px;
 	text-decoration: none;
 	padding: 5px;
